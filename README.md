@@ -1,4 +1,4 @@
-# llvm jit 实现基于llvm20
+# llvm jit 基于llvm20
 
 ## v1.0.0
 
