@@ -1,0 +1,21 @@
+[
+{
+  "directory": "/home/lan/llvm_jit",
+  "arguments": ["/usr/local/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Wall", "-O3", "-std=c++17", "-Iinclude", "-fuse-ld=mold", "-DNDEBUG", "-o", "build/.objs/jit_calc/linux/x86_64/release/src/AST.cpp.o", "src/AST.cpp"],
+  "file": "src/AST.cpp"
+},
+{
+  "directory": "/home/lan/llvm_jit",
+  "arguments": ["/usr/local/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Wall", "-O3", "-std=c++17", "-Iinclude", "-fuse-ld=mold", "-DNDEBUG", "-o", "build/.objs/jit_calc/linux/x86_64/release/src/Lexer.cpp.o", "src/Lexer.cpp"],
+  "file": "src/Lexer.cpp"
+},
+{
+  "directory": "/home/lan/llvm_jit",
+  "arguments": ["/usr/local/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Wall", "-O3", "-std=c++17", "-Iinclude", "-fuse-ld=mold", "-DNDEBUG", "-o", "build/.objs/jit_calc/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+},
+{
+  "directory": "/home/lan/llvm_jit",
+  "arguments": ["/usr/local/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Wall", "-O3", "-std=c++17", "-Iinclude", "-fuse-ld=mold", "-DNDEBUG", "-o", "build/.objs/jit_calc/linux/x86_64/release/src/Parser.cpp.o", "src/Parser.cpp"],
+  "file": "src/Parser.cpp"
+}]

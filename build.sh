@@ -1,0 +1,1 @@
+clang++ toy.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core orcjit native` -fuse-ld=mold -O2 -o repl
