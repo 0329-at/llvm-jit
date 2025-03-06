@@ -134,7 +134,3 @@ entry:
   ret double %addtmp
 }
  ```
-
-### Removed
-
-- Some packages/libraries from acknowledgements I no longer use
